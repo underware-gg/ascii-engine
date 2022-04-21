@@ -1,0 +1,92 @@
+{
+  "w": 160,
+  "h": 40,
+  "entities": [
+    {
+      "type": "tile",
+      "data": {
+        "x": 0,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 10,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 20,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 30,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 40,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 50,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 60,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 90,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 120,
+        "y": 25
+      }
+    },
+    {
+      "type": "tile",
+      "data": {
+        "x": 130,
+        "y": 25
+      }
+    },
+    {
+      "type": "door",
+      "data": {
+        "x": 131,
+        "y": 19,
+        "open": false,
+        "leadsTo": "start"
+      }
+    },
+    {
+      "type": "player",
+      "data": {
+        "x": 5,
+        "y": 5
+      }
+    }
+  ]
+}

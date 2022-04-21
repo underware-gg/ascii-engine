@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/index.css">
+        <title>Ascii renderer</title>
+    </head>
+    <body>
+        <h1>ANSI renderer</h1>
+        <p>An ANSI canvas by James Addison.</p>
+        <pre>
+Key:
+
+0: Pink
+1: White
+2: Light blue
+3: Dark blue
+4: Navy
+        </pre>
+        <div>
+            <div>
+                <div id="ansi-palette-container"></div>
+                <p>Brush</p>
+                <input type="text" id="brush-input" maxlength="1" value="x">
+                <input type="number" id="brush-color-input" max="4" min="0" value="1">
+                <input type="number" id="brush-background-color-input" max="4" min="0" value="4">
+            </div>
+            <div>
+                <p>Size</p>
+                <input type="number" id="canvas-width-input" max="80" min="0" value="80">
+                <input type="number" id="canvas-height-input" max="40" min="0" value="40">
+            </div>
+            <div>
+                <p>Tool</p>
+                <button id="pencil-button">Pencil</button>
+                <button id="fill-button">Fill</button>
+                <button id="eraser-button">Eraser</button>
+            </div>
+            <div>
+                <p>Frame</p>
+                <input type="number" id="frame-input" min="0" max="0" value="0">
+                <button id="add-frame-button">Add frame</button>
+            </div>
+        </div>
+        <div id="game" width="640" height="480"></div>
+        <div>
+            <input type="text" id="filename-input" value="sprite">
+            <a download="sprite.json" target="_blank" id="download-button">Download</a>
+        </div>
+        <script src="/main.js"></script>
+    </body>
+</html>
